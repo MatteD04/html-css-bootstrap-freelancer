@@ -9,7 +9,24 @@
     background-color: #3a546d;
 }
 /*BACKGROUND COL*/
-
+.ms-bg-red{
+    background-color: #ba4b63;
+}
+.ms-bg-lightblue{
+    background-color: #1ea4b6;
+}
+.ms-bg-black{
+    background-color: black;
+}
+.ms-bg-lightblue-2{
+    background-color: #1c83c1;
+}
+.ms-bg-blue-2{
+    background-color: #0e38b5;
+}
+.ms-bg-beige{
+    background-color: #ccb2a3;
+}
 
 /*BUTTON*/
 .ms-btn-green, .ms-btn-green:hover{
