@@ -2,3 +2,22 @@
 .ms-bg-darkblue{
     background-color: #2C3E50;
 }
+.ms-bg-green{
+    background-color: #1ABC9C;
+}
+.ms-bg-blue{
+    background-color: #3a546d;
+}
+/*BACKGROUND COL*/
+
+
+/*BUTTON*/
+.ms-btn-green, .ms-btn-green:hover{
+    color: white;
+    background-color: #1ABC9C;
+}
+
+/*LINK*/
+.ms-color-green{
+    color: #1ABC9C;
+}
