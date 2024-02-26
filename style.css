@@ -47,3 +47,14 @@
 .ms-star{
     font-size: 30px;
 }
+
+/*FORM*/
+.ms-form{
+    border: none;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    border-radius: 0;
+}
+.ms-form-big{
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
