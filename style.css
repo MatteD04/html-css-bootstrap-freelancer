@@ -26,7 +26,7 @@
 }
 
 /*FONT AWESOME*/
-.col-12 i{
+.ms-i{
     border: 1px solid white;
     width: 50px;
     padding: 15px;
@@ -57,4 +57,35 @@
 .ms-form-big{
     padding-bottom: 100px;
     margin-bottom: 20px;
+}
+
+/*HOVER*/
+.ms-nav-link{
+    color: white;
+}
+.ms-nav-link:hover{
+    color: #1ABC9C;
+}
+.ms-image:hover{
+    opacity: 0.5;
+    overflow: hidden;
+}
+.ms-image{
+    position: relative;
+}
+.ms-image img{
+    display: block;
+}
+.ms-card-hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.ms-card:hover .ms-card-hover{
+    display: flex;
 }
