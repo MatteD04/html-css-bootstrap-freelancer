@@ -8,6 +8,7 @@
 .ms-bg-blue{
     background-color: #3a546d;
 }
+
 /*BACKGROUND COL*/
 .ms-bg-red{
     background-color: #ba4b63;
@@ -37,4 +38,9 @@
 /*LINK*/
 .ms-color-green{
     color: #1ABC9C;
+}
+
+/*IMAGES*/
+.ms-avatar{
+    width: 40%;
 }

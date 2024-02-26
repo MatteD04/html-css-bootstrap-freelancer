@@ -9,17 +9,33 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <header class="ms-bg-darkblue text-white py-3">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="fs-4 fw-bold">START BOOTSTRAP</div>
-                <div>navigation</div>
+    <header class="ms-bg-darkblue text-white sticky-top">
+        <nav class="navbar navbar-expand-md" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand fs-3 fw-bold" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <main>
         <section class="ms-bg-green py-4 py-md-5 text-white">
             <div class="container px-5 text-center">
+                <img src="./img/avatar.svg" class="img-fluid ms-avatar mb-2" alt="avatar">
                 <h1>START BOOTSTRAP</h1>
                 <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
@@ -27,7 +43,7 @@
         <section>
             <div class="container py-5">
                 <h2 class="text-center pb-4">PORTFOLIO</h2>
-                <div class="row gy-3">
+                <div class="row gy-3 mx-0">
                     <div class="col-12 col-md-6 col-lg-4 ms-bg-red rounded-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                     <div class="col-12 col-md-6 col-lg-4 ms-bg-lightblue rounded-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                     <div class="col-12 col-md-6 col-lg-4 ms-bg-black rounded-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
@@ -52,7 +68,7 @@
         <section>
             <div class="container py-5">
                 <h2 class="text-center pb-4">CONTACT ME</h2>
-                <button class="btn ms-btn-green">Send</button>
+                <button class="btn ms-btn-green mx-5">Send</button>
             </div>
         </section>
         <section class="ms-bg-blue">
@@ -74,5 +90,7 @@
     <footer class="ms-bg-darkblue">
         <p class="text-white text-center py-5">Copyright ©️ Your Website 2019</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
