@@ -44,3 +44,12 @@
 .ms-avatar{
     width: 40%;
 }
+
+/*FONT AWESOME*/
+.col-12 i{
+    border: 1px solid white;
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
